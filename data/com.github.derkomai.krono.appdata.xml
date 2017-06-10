@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2017 David Vilela <dvilelaf@gmail.com> -->
+<component type="desktop">
+  <id>com.github.derkomai.krono.desktop</id>
+  <metadata_license>CC0</metadata_license>
+  <project_license>GPL-3.0+</project_license>
+  <name>Krono</name>
+  <summary>A Task Manager</summary>
+  <description>
+    <p>Create tasks that are performed automatically.</p>
+    <ul>
+        <li>Pick colors from your display</li>
+        <li>Quit with the handy shortcut Ctrl + Q</li>
+        <li>Join the contrast rebellion</li>
+    </ul>
+  </description>
+  <provides>
+    <binary>com.github.danrabbit.harvey</binary>
+  </provides>
+  <screenshots>
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/derkomai/krono/master/data/screenshot.png</image>
+    </screenshot>
+  </screenshots>
+  <developer_name>David Vilela</developer_name>
+  <url type="bugtracker">https://github.com/derkomai/krono/issues</url>
+  <custom>
+     <value key="x-appcenter-color-primary">rgb(68, 162, 232)</value>
+     <value key="x-appcenter-color-primary-text">rgb(255, 255, 255)</value>
+     <value key="x-appcenter-suggested-price">1</value>
+  </custom>
+</component>

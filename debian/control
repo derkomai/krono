@@ -1,0 +1,15 @@
+Source: krono
+Section: x11
+Priority: extra
+Maintainer: David Vilela <dvilelaf@gmail.com>
+Build-Depends: cmake (>= 2.8),
+               debhelper (>= 9),
+               libgtk-3-dev,
+               valac (>= 0.16)
+Standards-Version: 3.9.3
+
+Package: krono
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Krono
+This is a task manager written in Vala using CMake build system.

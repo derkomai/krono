@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Krono
+GenericName=Task manager
+Comment=Create tasks that are performed automatically
+Categories=Utility;
+Exec=com.github.derkomai.krono
+Icon=application-default-icon
+Terminal=false
+Type=Application
+X-GNOME-Gettext-Domain=krono
+Keywords=Krono;Task;Manager;
